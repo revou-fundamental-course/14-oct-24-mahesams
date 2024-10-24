@@ -1,0 +1,163 @@
+/* ini css */
+
+body {
+    background-color: antiquewhite;
+}
+
+section {
+    margin: 50px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    background-image: url(../assets/inti\ bumi\ berkarya.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.konstruksi {
+    height: 400px;
+    width: 400px;
+    background-image: url(../assets/konstruksi.jpg);
+    background-size: contain;
+    background-position: center;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: larger;
+}
+
+nav>a {
+    border: 3px solid;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-color: black;
+    margin-right: 10px;
+}
+
+.photo-banner {
+    height: 578px;
+    width: 1366px;
+    background-size: cover;
+    background-position: center;
+}
+
+.photo-1 {
+    background-image: url(../assets/photobanner1.jpg);
+}
+
+.photo-2 {
+    background-image: url(../assets/photobanner2.jpg);
+    display: none;
+}
+
+.photo-3 {
+    background-image: url(../assets/photobanner3.jpg);
+    display: none;
+}
+
+.article {
+    width: 750px;
+    text-align: justify;
+    height: 400px;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    margin-left: 170px;
+}
+
+section {
+    margin: 10px;
+}
+
+.profil-kami {
+    display: flex;
+    align-items: center;
+}
+
+.message-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#result {
+    margin: 0px;
+}
+
+footer>div {
+    text-align: center;
+    font-size: small;
+}
+
+input ,textarea {
+    background: antiquewhite;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.hasil-data {
+    border: 1px solid;
+    padding: 12px 20px;
+    width: 35%;
+}
+
+.pesan {
+    display: flex;
+}
+
+button {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:480px) {
+    .main-header {
+        flex-direction: column;
+    }
+
+    .photo-banner {
+        height: 150px;
+        width: auto;
+    }
+
+    nav {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .konstruksi {
+        background-size: cover;
+        height: 200px;
+        width: 1000px;
+    }
+
+    .article {
+        font-size: x-small;
+        margin-left: 10px;
+    }
+
+    .message-container {
+        flex-direction: column;
+    }
+
+    .hasil-data {
+        margin-top: 30px;
+        width: auto;
+    }
+}
